@@ -1,0 +1,15 @@
+.activate1{
+    list-style: none; 
+    font-weight: bold ;
+    color: rgb(17, 188, 245);
+    text-decoration:none;
+    font-size: 1em;
+  }
+  .header1{
+    background-color: #FA672B;
+    border-bottom: 2px solid #1d3557;
+  }
+
+ul{
+    list-style: none; 
+}

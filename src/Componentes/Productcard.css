@@ -1,0 +1,42 @@
+
+
+.Productocard {
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 25%;
+    height: 10vh;
+ 
+    background: rgb(60, 62, 68);
+    border-radius: 0.5rem;
+    margin: 0.6rem;
+    
+  }
+    
+  .Productocard__Imagen{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 100%;
+  }
+
+  
+  .Productocard__Imagen img {
+    width: 15%;
+  }
+
+  .Productocard_Content{
+    font-weight: bold;
+    font-size: 0.5em;
+  }
+
+  .Productocard_hora_btn{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .btn{
+    width: 5%;
+    
+  }
