@@ -10,11 +10,14 @@ export const Temporizador = (props) => {
     const numId=parseInt(id)
     let Ntempo=0;
     
-    if(numId%2 ==0){
+   /* if(numId%2 ==0){
         Ntempo=59000*3;
     }else{
         Ntempo=59000;
-    }
+    }*/  //para colocar tiempo de un min o tres min si es o no par 
+
+    const random= Math.floor(Math.random() * (20 - 1 + 1)) + 1;
+    Ntempo=random*59000; // se asigna funcion random del 1 al 20 para el contador 
        
 const Completionist = () => <span>Time is up! purchase for this product</span>;  
 const navegar=useNavigate();
