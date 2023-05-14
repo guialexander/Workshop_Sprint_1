@@ -1,0 +1,15 @@
+.Articlecard{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+.Articlecard__Image{
+    float: left; 
+    width: 30em;
+     height: 25em; 
+     margin-right: 2em;
+}
+.Articlecard__title{
+    background-color: aliceblue;
+}

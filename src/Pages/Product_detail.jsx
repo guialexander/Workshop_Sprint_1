@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link, useLoaderData } from 'react-router-dom'
 import Productcard from '../Componentes/Productcard'
-import './product.css'
+import './Styles/DetailProduct.css'
+import './Styles/product.css'
 
 export const Product_detail = () => {
   const { posts = [] } = useLoaderData()
@@ -9,7 +10,7 @@ export const Product_detail = () => {
  
   return (
     <div>
-    <h1>Produc list</h1>
+    <h1 className='titleDetalproducts'>Produc list</h1>
     <hr />
     <div className="container">
    

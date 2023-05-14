@@ -1,0 +1,11 @@
+.Temporizadorcard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+}
+.Temporizadorcard--span{
+    background-color: lightblue;
+    margin: 2em;
+}

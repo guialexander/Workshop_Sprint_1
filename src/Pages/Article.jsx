@@ -1,11 +1,12 @@
 import { useLoaderData } from 'react-router-dom'
+import './Styles/article.css'
 
 const Article = () => {
   const { post } = useLoaderData()
   return(
-    <div>
-      <h1>{post.id} - {post.title}</h1>
-      <img src={post.image} alt={post.title}/>
+    <div className='Articlecard'>
+      <h1 className='Articlecard__title'>{post.id} - {post.title}</h1>
+      <img className='Articlecard__Image' src={post.image} alt={post.title}/>
     </div>
   )
 }

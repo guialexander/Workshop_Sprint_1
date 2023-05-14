@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import PropTypes from 'prop-types';
 import Countdown from 'react-countdown'
 import { Link, useNavigate} from 'react-router-dom'
+import './Temporizador.css'
 
 export const Temporizador = (props) => {
     const {product} =props
@@ -28,10 +29,14 @@ const handleClick=(event)=>{
           return <Completionist />;
         } else {
           // Render a countdown
-          return <>
+          return <div className="Temporizadorcard">
+            <div className="Temporizadorcard--span">
             <span>{hours}:{minutes}:{seconds}</span>
+            </div>
+            <div className="Temporizadorcard--btn">
             <button className='Productcard_action--btn' onClick={handleClick}>Go TO Detail</button>
-            </>
+            </div>
+            </div>
         }
       };
   
