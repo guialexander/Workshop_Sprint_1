@@ -14,13 +14,13 @@ export const Product_detail = () => {
     <div className="container">
    
         {posts.map((item, index) => (
-          <div key={index}>
+         
             <Productcard
             product ={item}
             key={index}
             />
             
-          </div>
+          
         ))}
     
       </div>

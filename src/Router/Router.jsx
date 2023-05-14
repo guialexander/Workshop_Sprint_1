@@ -3,6 +3,7 @@ import Root from '../Layout/Root'
 import Home from '../Pages/Home.jsx'
 import Product_detail, { loaderProducs }  from '../Pages/Product_detail'
 import About from '../Pages/About'
+import Article,{loaderArticle} from '../Pages/Article'
 import NotFound from '../Pages/NotFound'
 
 
@@ -25,6 +26,12 @@ const router = createBrowserRouter([
       {
         path: 'about',
         element: <About />,
+      },
+
+       {
+        path: 'productdetail/:id',
+        element: <Article />,
+        loader: loaderArticle,
       },
 
  
