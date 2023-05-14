@@ -31,7 +31,7 @@ solution to Workshop Sprint 1
 -se adjunta imagenes del proyecto y de las preguntas: 2. Preguntas Dado el siguiente codePen, el cual solo tiene un HTML, por medio de css llegar a esta respuesta. Imagen. (Para mostrar los servicios debes usar CSS Flexbox o CSS Grid).
 
 
-![](./src/assets/Screenshot_1.jpg)
+![Screenshot_1](https://github.com/guialexander/Workshop_Sprint_1/assets/71296562/b268b8a4-6133-4d3f-9f14-47f3971a6846)
 ![](./src/assets/Screenshot_3.jpg)
 ![](./src/assets/cssworksprint1tarea.jpg)
 ![](./src/assets/cssworksprint1tarea2.jpg)
