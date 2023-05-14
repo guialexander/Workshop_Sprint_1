@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-
+import Temporizador from './Temporizador'
 const Header = () => {
   return (
     <div className="header1">
@@ -21,6 +21,7 @@ const Header = () => {
             className= {({isActive})=> isActive ? "activate1" : ""}
             > About </NavLink>
           </li>
+         
           
         </ul>
       </nav>

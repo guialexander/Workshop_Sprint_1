@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 import { Link, useNavigate} from 'react-router-dom'
+import Temporizador from './Temporizador'
 import './Productcard.css'
 
 export const Productcard = (props) => {
@@ -16,15 +17,16 @@ export const Productcard = (props) => {
   return (
     <div className="Productocard">
               <div className="Productcard__image">
-                        <img src={image} alt="imagen componente" />
+                        <img className='productcard__image--img' src={image} alt="imagen componente" />
             </div>
             <div className="Productcard__title">
                <p>{title}</p>
             </div>
            <div className="Productcard_action">
-            <p>tiempo</p>
-            <button className='Productcard_action--btn' onClick={handleClick}>Go TO Detail</button>
-           </div>
+           <Temporizador
+            product ={product}
+            key={id}/>
+            </div>
     
     </div>
   
